@@ -53,7 +53,19 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-
+<style>
+#thumb2 {
+    background-position: 234px !important;
+    background-position-y: 0px !important;
+    /* background-size: 400px !important; */
+}
+#fh5co-header .display-tc .profile-thumb, .fh5co-cover .display-tc .profile-thumb {
+    height: 167px;
+    width: 165px;
+    border-radius: 30%;
+}
+	
+</style>
 	</head>
 	<body>
 		
@@ -67,7 +79,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t js-fullheight">
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-							<div class="profile-thumb" style="background: url(images/user-3.jpg);"></div>
+							<div id='thumb2' class="profile-thumb" style="background: url(images/user-9.jpg);"></div>
 							<h1><span>Jason P Navarro</span></h1>
 							<h3><span>Full Stack Web Developer </span></h3>
 							<p>
@@ -98,15 +110,18 @@
 					<ul class="info">
 						<li><span class="first-block">Full Name:</span><span class="second-block">Jason P Navarro</span></li>
 						<li><span class="first-block">Phone:</span><span class="second-block"> 407-413-6468</span></li>
-						<li><span class="first-block">Email:</span><span class="second-block">iamjasonnavarro@gmail.com</span></li>
+						<li><span class="first-block">Email:</span><span class="second-block">jasonnavarro86@yahoo.com</span></li>
 						<li><span class="first-block">Website:</span><span class="second-block">www.jasonpnavarro.com</span></li>
 						<!-- <li><span class="first-block">Address:</span><span class="second-block">198 West 21th Street, Suite 721 New York NY 10016</span></li> -->
 					</ul>
 				</div>
 				<div class="col-md-8">
 					<h2>Hello There!</h2>
-					<p>Thank you for taking time out to visit my site. I am a recent graduate from UCF's Full Stack Web Development Program and currently living in Orlando, FL. </p>
-					<p>Creating websites, working with new technoligies, and solving hard technical problems is one of my biggest passions. It's just something I love. Over the past 6 months I have learned to write lean code in five diffrent languages / technologies both front and back end, OOCP, Version Control, AWS, Heroku, and much more.</p>
+				
+					<p>Thank you for taking time out to visit my site. I am a graduate from UCF's Full Stack Web Development Program and currently living in Orlando, FL.</p>
+					<p> Creating websites, working with databases, learning new technoligies, and solving hard technical problems are some of my biggest passions. It's just something I love.</p>
+					<p>To learn more about what I can do or for any qustions just click the connect button below or any of the social media icons.</p>
+					<a style="background-color:#c9d4d0" class="btn btn-sm" href="mailto:jasonnavarro86@yahoo.com">Contact</a>
 					<p>
 						<ul class="fh5co-social-icons">
 							
@@ -131,10 +146,26 @@
 			<div class="row">
 				<div class="col-md-12 col-md-offset-0">
 					<ul class="timeline">
+							<li class="timeline-unverted animate-box">
+									<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h3 class="timeline-title">Customer Management Systems</h3>
+											<span class="company">Full Stack Web Developer - 2017 - Present</span>
+										</div>
+										<div class="timeline-body">
+											<p>
+													Developed a CRM System for a small call center of 60 employees who are in charge of training car dealership sales reps, generating leads, setting appointments, outbound calling as mystery shoppers, creating dealer orders, taking payments, printing reports, and much more.
+													Technologies used: HTML5, CSS3, JavaScript, Node.js, React, Express, MsSQL, jsPDF, html2canvas, Twitter Bootstrap.
+											</p>
+										</div>
+									</div>
+								</li>
+							</li>
 						<li class="timeline-heading text-center animate-box">
 							<div><h3>Work Experience</h3></div>
-						</li>
-						<li class="animate-box timeline-unverted">
+					
+						<li class="animate-box timeline-inverted">
 							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
@@ -146,7 +177,7 @@
 								</div>
 							</div>
 						</li>
-						<li class="timeline-inverted animate-box">
+						<li class="timeline-unverted animate-box">
 							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
@@ -159,18 +190,19 @@
 								</div>
 							</div>
 						</li>
-						<!-- <li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">UI/UX Designer</h3>
-									<span class="company">Company Name - 2010 - 2012</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-								</div>
-							</div>
-						</li> -->
+					</li>
+					<!-- <li class="animate-box timeline-unverted">
+					<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+					<div class="timeline-panel">
+						<div class="timeline-heading">
+							<h3 class="timeline-title">Cashier / Team Lead</h3>
+							<span class="company">Holyland Experince - 2010 - 2012</span>
+						</div>
+						<div class="timeline-body">
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+						</div>
+					</div>
+				</li> -->
 
 						<br>
 						<li class="timeline-heading text-center animate-box">
@@ -195,7 +227,7 @@
 								</div>
 							</div>
 						</li> -->
-						<li class="animate-box timeline-unverted">
+						<li class="animate-box timeline-inverted">
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
@@ -214,7 +246,7 @@
 								</div>
 							</div>
 						</li>
-						<li class="timeline-inverted animate-box">
+						<li class="timeline-unverted animate-box">
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
@@ -222,7 +254,7 @@
 									<span class="company">Southeastern University - 2005 - 2007</span>
 								</div>
 								<div class="timeline-body">
-									<p>Business, Management, and Marketing. 
+									<p> Business, Management, and Marketing. 
 										an understanding of organisational behaviour and structure;
 										analytical and critical thinking;
 										a creative approach to problem solving;
@@ -462,7 +494,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-3 text-center col-padding animate-box">
+				<div class="col-md-4 text-center col-padding animate-box">
 					<a href="https://tranquil-sands-39267.herokuapp.com/" class="work" style="background-image: url(images/portfolio-1.jpg);">
 						<div class="desc">
 							<h3>Marvel Compatibility Test</h3>
@@ -478,7 +510,7 @@
 						</div>
 					</a>
 				</div> -->
-				<div class="col-md-3 text-center col-padding animate-box">
+				<div class="col-md-4 text-center col-padding animate-box">
 					<a href="https://jasonnavarro86.github.io/My_Trivia_Game/" class="work" style="background-image: url(images/portfolio-2.jpg);">
 						<div class="desc">
 							<h3>Avengers Triva</h3>
@@ -486,7 +518,7 @@
 						</div>
 					</a>
 				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
+				<div class="col-md-4 text-center col-padding animate-box">
 					<a href="https://jasonnavarro86.github.io/Gif_It_Real_Good/" class="work" style="background-image: url(images/portfolio-4.jpg);">
 						<div class="desc">
 							<h3>Gif It Real Good</h3>
@@ -651,7 +683,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<p>&copy; Jason P Navarro  2017</p>
+					<p>&copy; Jason P Navarro  2018</p>
 				</div>
 			</div>
 		</div>
